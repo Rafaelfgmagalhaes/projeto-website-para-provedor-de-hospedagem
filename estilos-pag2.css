@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+}
+
+.area-page{
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+
+.topo{
+    width: 100%;
+    height: 90px;
+    background-color: #2f86d6;
+}
+
+.topo .logotipo{
+    width: 180px;
+    position: relative;
+}
+
+.logotipo img{
+    width: 40px;
+    position: absolute;
+    top: 20px;
+}
+
+.logotipo h1{
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.logotipo h2{
+    font-size: 9px;
+    color: #fff;
+    position: absolute;
+    top: 42px;
+    left: 50px;
+}
+
+.topo .nav{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 35px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+}
+
+.conteudo{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.area-page table{
+    width: 100%;
+}
+
+table .primeira-linha{
+    background-color: #f1f3f7;
+}
+
+table .primeira-coluna{
+    background-color: #f1f3f7;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+table td{
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+table th{
+    text-align: center;
+    padding: 5px;
+}
+
+table th .letra-pequena{
+    font-size: 7px;
+    color: #a8a4a4;
+}
+
+table th p{
+    font-size: 14px;
+}
+
+table tr .marcador{
+    background-color: #2f86d6;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.rodape{
+    width: 100%;
+    height: 150px;
+    background-color: #2f86d6;
+    text-align: center;
+}
+
+.rodape p{
+    color: #fff;
+    font-size: 12px;
+}
+
+.rodape .logotipo2{
+    width: 180px;
+    position: relative;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.logotipo2 img{
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.logotipo2 h3{
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+}
+
+.logotipo2 h4{
+    font-size: 9px;
+    color: #fff;
+    position: absolute;
+    top: 52px;
+    left: 55px;
+}
+
+.rodape2{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.rodape2 span{
+    color: #2f86d6;
+}
